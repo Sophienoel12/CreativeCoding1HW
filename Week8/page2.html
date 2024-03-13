@@ -1,0 +1,35 @@
+<html>
+    <title>Where have you gone</title>
+    <head>
+        <script>
+          function getData() {
+            var Snowbowl = document.getElementById("radio").value;
+            var Showdown = document.getElementById("radio").value;
+            var Discovery =document.getElementById("radio").value;
+            var Whitefish = document.getElementById("radio").value;
+            var None= document.getElementById("radio").value;
+            // get the new field value
+            // print out the new field's value     document.getElementById("finalResult").innerHTML = "Snowbowl: " + + " Showdown: " + Whitefish;
+          }
+        </script>
+      </head>
+        <head>
+            <!--external stylesheet using bootstrap via CDN-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="annonymous">
+        </head>
+        <body style="background-image:url(https://cdn.skimag.com/wp-content/uploads/2018/01/ski_spo_montana_montanasnowbowl_glaciercountry.jpg?width=730);">
+            <h3>Where have you gone skiing?</h3>
+            <br>
+            <form style="background-color: aqua;">
+                <input type="radio" value="Snowbowl">Snowbowl<br>
+                <input type="radio" value="Showdown">Showdown<br>
+                <input type="radio" value="Discovery">Discovery<br>
+                <input type="radio" value="Big Sky">Big Sky<br>
+                <input type="radio" value="Whitefish">Whitefish<br>
+                <input type="radio" value="None of the above">None of the above
+                <button type="button">Submit</button>
+            </form>
+            <br>
+            <a href="index.html">skiing</a> | <a href="page3.html">pictures</a>
+        </body>
+</html>
